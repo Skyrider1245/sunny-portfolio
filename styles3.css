@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Resume Container */
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    flex-wrap: wrap;
+}
+
+.crack {
+    flex-wrap: wrap;
+}
+
+/* Education Section */
+section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-top: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Project Section */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.project a {
+    font-size: 1rem;
+    color: blue;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Experience Section */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.job ul {
+    margin-top: 5px;
+}
+
+.job li {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
